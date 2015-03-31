@@ -29,6 +29,10 @@ em {
   position: relative;
   top:-5px;
   padding-right:5px;
+
+  /* Font-weight hack to tell Mobile Safari to stop mangling custom fonts */
+  font-weight: normal;
+  text-shadow: none;
 }
 
 a {
